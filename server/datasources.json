@@ -2,5 +2,19 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "model_relations_dev": {
+    "host": "127.0.0.1",
+    "port": 27017,
+    "database": "model_relations_dev",
+    "username": "",
+    "password": "",
+    "name": "model_relations_dev",
+    "connector": "mongodb",
+    "server": {
+      "auto_reconnect": true,
+      "reconnectTries": 100,
+      "reconnectInterval": 1000
+    }
   }
 }
